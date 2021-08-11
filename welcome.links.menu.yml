@@ -1,0 +1,6 @@
+welcome.settings_form:
+  title: Welcome
+  description: Configure the custom message for the welcome module.
+  parent: system.admin_config_system
+  route_name: welcome.settings_form
+  weight: 10

@@ -1,0 +1,4 @@
+administer welcome configuration:
+  title: 'Administer welcome configuration'
+  description: 'Edit the optional welcome message displayed for authenticated users.'
+  restrict access: true

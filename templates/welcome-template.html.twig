@@ -1,0 +1,10 @@
+<div class="welcome-block">
+  <p>Hello {{ user_name }}!</p>
+  <p>Your last log in was {{ login_date|date('M jS, Y g:i a') }}.</p>
+  <p>
+    <a href="/user/{{ user_id }}">Visit your profile</a>
+  </p>
+  {% if message is not empty %}
+    <p>{{ message }}</p>
+  {% endif %}
+</div>

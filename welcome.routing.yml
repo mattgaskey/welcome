@@ -1,0 +1,7 @@
+welcome.settings_form:
+  path: '/admin/config/system/welcome'
+  defaults:
+    _title: 'Welcome Settings'
+    _form: 'Drupal\welcome\Form\SettingsForm'
+  requirements:
+    _permission: 'administer welcome configuration'
